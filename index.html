@@ -6,18 +6,17 @@
   <!--tag raiz-->
   <head>
     <title>NLW HEAT</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-
-  <link rel="stylesheet" href="style.css" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-    rel="stylesheet"
-  />
-
   <body>
     <main>
       <div class="container">
@@ -28,42 +27,47 @@
 
           <img src="Images/IMG_2612123.JPG" alt="Foto Pessoal" />
         </div>
-        <h1>Dirceu Silvestre</h1>
-        <a href="https://github.com/DirceuSilvestre">
+        <h1 id="userName">Dirceu Silvestre</h1>
+        <a target="_blank" href="https://github.com/DirceuSilvestre">
           <img src="/Images/github 2.svg" alt="ícone do github" />
-
-          DirceuSilvestre</a
-        >
+          DirceuSilvestre
+        </a>
 
         <p>Estudante empenhado em melhorar cada vez mais</p>
 
-        <ul>
-          <li>
-            <a href="https://www.youtube.com/watch?v=39k1H7E0fKs"></a>
-            <img src="Images/youtube.svg" alt="ícone youtube" target="_blank" />
-          </li>
-          <li>
-            <a href="https://youtu.be/39k1H7E0fKs"></a>
-            <img
-              src="Images/facebook.svg"
-              alt="ícone facebook"
+        <ul id="socialLinks">
+          <li class="youtube">
+            <a
               target="_blank"
-            />
+              href="https://www.youtube.com/watch?v=39k1H7E0fKs"
+            >
+              <img src="Images/youtube.svg" alt="ícone youtube" />
+            </a>
           </li>
-          <li>
-            <a href="https://youtu.be/39k1H7E0fKs"></a>
-            <img
-              src="Images/instagram.svg"
-              alt="ícone instagram"
+          <li class="facebook">
+            <a target="_blank" href="https://github.com/DirceuSilvestre">
+              <img src="Images/facebook.svg" alt="ícone facebook" />
+            </a>
+          </li>
+          <li class="instagram">
+            <a
               target="_blank"
-            />
+              href="https://www.instagram.com/dirceusilvestreoficial/"
+            >
+              <img src="Images/instagram.svg" alt="ícone instagram" />
+            </a>
           </li>
-          <li>
-            <a href="https://youtu.be/39k1H7E0fKs"></a>
-            <img src="Images/twitter.svg" alt="ícone twitter" target="_blank" />
+          <li class="twitter">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/dirceu-silvestre-17611a194/"
+            >
+              <img src="Images/twitter.svg" alt="ícone twitter" />
+            </a>
           </li>
         </ul>
       </div>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
